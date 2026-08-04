@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Hawlet Romedan Yesuf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="logo">Hawlet <span>Romedan Yesuf</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div class="wrap page-hero reveal">
+    <span class="eyebrow-label">03 · Contact</span>
+    <h1 class="page-title">Let's work together</h1>
+    <p>Open to internship opportunities, freelance projects, and conversations about front-end development. I typically respond within a day or two.</p>
+  </div>
+
+  <section>
+    <div class="wrap">
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Ada Lovelace" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="ada@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+
+      <div class="contact-box reveal">
+        <h2>Prefer to reach out directly?</h2>
+        <p>Find me by email or on the platforms below.</p>
+        <div class="contact-links">
+          <a href="mailto:hawletromedan12@gmail.com" class="btn btn-primary">Email Me</a>
+          <a href="https://github.com/hawli-geeeeez" class="btn btn-secondary">GitHub</a>
+          <a href="https://linkedin.com/in/hawletromedan" class="btn btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Hawlet Romedan Yesuf. Built with HTML, CSS &amp; JavaScript.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
